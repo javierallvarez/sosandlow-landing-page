@@ -121,9 +121,9 @@ h1 {
 }
 
 .subscribe:hover {
-  width: 15rem;
   transition-property: transform;
-  color: gray;
+  background-color: rgb(90, 88, 88);
+  color: #40e785;
   transition: 1s;
 }
 
@@ -390,3 +390,24 @@ h2 {
     margin-top: -6rem;
   }
 }
+
+  @media (max-width: 45rem){
+    #video{
+      width: 300px;
+      height: 20rem;
+    }
+
+    .home-image-right {
+      margin-left: -6rem;
+    }
+    #hero h2{
+      font-size: 1.6rem;
+    }
+
+    .home-social-list {
+      right: 7%;
+      top: 45%;
+    }
+}
+
+
